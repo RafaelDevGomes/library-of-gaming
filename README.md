@@ -5,8 +5,6 @@
 
 # A plataforma abrange tanto jogos independentes (Indie Games) quanto grandes produções da indústria, conhecidas como AAA (Triple-A), permitindo que os usuários descubram novas experiências e comparem avaliações antes de decidir qual jogo adquirir ou experimentar.
 
-# Além de apresentar notas e críticas detalhadas, o Library of Gaming busca incentivar a interação da comunidade gamer, possibilitando que os usuários compartilhem suas próprias opiniões e contribuam para a construção de uma biblioteca completa de avaliações. Dessa forma, o site se torna uma fonte de informação acessível para jogadores de diferentes perfis e preferências.
-
 # O desenvolvimento deste projeto envolve conceitos de design web, banco de dados, experiência do usuário e organização de informações digitais, demonstrando a aplicação prática dos conhecimentos adquiridos ao longo do curso.
 
 Integrantes do Grupo
