@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    padding:0;
+    background:#262431;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar-custom{
+    background:#18181d;
+    border-bottom:1px solid #2d2d36;
+}
+
+.logo{
+    width:42px;
+}
+
+.logo-text{
+    color:white;
+    font-size:1rem;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+.navbar-nav .nav-link{
+    color:white;
+    font-size:1.1rem;
+    font-weight:600;
+    transition:.3s;
+}
+
+.navbar-nav .nav-link:hover{
+    color:#ff3da5;
+}
+
+.pesquisa{
+    width:220px;
+    border:none;
+    border-radius:8px;
+    background:#28325d;
+    color:white;
+}
+
+.pesquisa::placeholder{
+    color:#d9d9d9;
+}
+
+.pesquisa:focus{
+    background:#28325d;
+    color:white;
+    box-shadow:none;
+}
+
+.botao-login{
+    color:white;
+    border:2px solid #ff2ea6;
+    border-radius:7px;
+    padding:6px 18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.botao-login:hover{
+    background:#ff2ea6;
+    color:white;
+}
+
+.barra-1 {
+    display: flex;
+}

@@ -1,0 +1,387 @@
+/* ===========================
+   GERAL
+=========================== */
+
+body{
+    margin:0;
+    padding:0;
+    background:#262431;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+.redes{
+    width: 30px;
+    height: 30px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    height: auto;
+}
+a{
+    text-decoration:none;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar-custom{
+
+    background:#18181d;
+    border-bottom:1px solid #2d2d36;
+
+}
+
+.logo{
+
+    width:42px;
+
+}
+
+.logo-text{
+
+    color:white;
+    font-size:1rem;
+    font-weight:bold;
+    letter-spacing:2px;
+
+}
+
+.navbar-nav .nav-link{
+
+    color:white;
+    font-size:1.1rem;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.navbar-nav .nav-link:hover{
+
+    color:#ff3da5;
+
+}
+
+.pesquisa{
+
+    width:220px;
+    border:none;
+    border-radius:8px;
+    background:#28325d;
+    color:white;
+
+}
+
+.pesquisa::placeholder{
+
+    color:#d9d9d9;
+
+}
+
+.pesquisa:focus{
+
+    background:#28325d;
+    color:white;
+    box-shadow:none;
+
+}
+
+.botao-login{
+
+    color:white;
+    border:2px solid #ff2ea6;
+    border-radius:7px;
+    padding:6px 18px;
+    font-weight:bold;
+    transition:.3s;
+
+}
+
+.botao-login:hover{
+
+    background:#ff2ea6;
+    color:white;
+
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.principal{
+
+    background:#33313c;
+    padding:50px;
+    border-radius:4px;
+
+}
+
+/* ===========================
+   CABEÇALHO
+=========================== */
+
+.gato{
+
+    max-width:120px;
+
+}
+
+.titulo-area{
+
+    background:#4b4a56;
+    padding:18px;
+
+}
+
+.titulo-area h1{
+
+    margin:0;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    letter-spacing:2px;
+    font-size:2.2rem;
+
+}
+
+.quadrado{
+
+    width:40px;
+    height:40px;
+
+}
+
+.quadrado-amarelo{
+
+    background:#fff8be;
+
+}
+
+.quadrado-branco{
+
+    background:#dedede;
+
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.noticia-card{
+
+    background:transparent;
+    border:none;
+
+}
+
+.noticia-img{
+
+    width:100%;
+    border:10px solid #474652;
+
+}
+
+.card-body{
+
+    color:white;
+
+}
+
+.titulo-noticia{
+
+    font-size:2.2rem;
+    font-weight:bold;
+    margin-bottom:10px;
+
+}
+
+.titulo-noticia span{
+
+    font-size:1.8rem;
+    color:#dcdcdc;
+
+}
+
+.card-body hr{
+
+    border:2px solid white;
+    opacity:1;
+    width:95%;
+    margin-bottom:18px;
+
+}
+
+.card-body p{
+
+    font-size:1.15rem;
+    line-height:1.7;
+    color:#ececec;
+
+}
+
+.btn-outline-light{
+
+    border-width:2px;
+
+}
+
+/* ===========================
+   HOVER
+=========================== */
+
+.noticia-card:hover{
+
+    transform:translateY(-4px);
+    transition:.35s;
+
+}
+
+.btn-outline-light:hover{
+
+    color:#262431;
+
+}
+
+/* ===========================
+   RESPONSIVO
+=========================== */
+
+@media(max-width:991px){
+
+    .navbar-nav{
+
+        text-align:center;
+        margin:25px 0;
+
+    }
+
+    .pesquisa{
+
+        width:100%;
+        margin-bottom:10px;
+
+    }
+
+    .botao-login{
+
+        width:100%;
+
+    }
+
+    .titulo-area{
+
+        margin:20px 0;
+
+    }
+
+    .titulo-area h1{
+
+        font-size:1.8rem;
+
+    }
+
+    .titulo-noticia{
+
+        font-size:1.7rem;
+        margin-top:20px;
+
+    }
+
+    .titulo-noticia span{
+
+        display:block;
+        font-size:1.3rem;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .principal{
+
+        padding:25px;
+
+    }
+
+    .gato{
+
+        width:90px;
+        margin-bottom:20px;
+
+    }
+
+    .titulo-area h1{
+
+        font-size:1.45rem;
+
+    }
+
+    .quadrado{
+
+        width:30px;
+        height:30px;
+
+    }
+
+    .card-body{
+
+        text-align:center;
+
+    }
+
+    .card-body hr{
+
+        width:100%;
+
+    }
+
+    .card-body p{
+
+        font-size:1rem;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .logo-text{
+
+        display:none;
+
+    }
+
+    .titulo-area{
+
+        padding:12px;
+
+    }
+
+    .titulo-area h1{
+
+        font-size:1.2rem;
+        letter-spacing:1px;
+
+    }
+
+    .titulo-noticia{
+
+        font-size:1.3rem;
+
+    }
+
+    .titulo-noticia span{
+
+        font-size:1rem;
+
+    }
+
+    .card-body{
+
+        padding:20px;
+
+    }
+
+}

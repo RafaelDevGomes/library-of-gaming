@@ -1,57 +1,146 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-  <nav class="navbar bg-body-tertiary fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Library Of Gaming</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Barra de Navegação</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Início</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Listagem de Jogos</a>
-          </li>
-           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Sobre
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Sobre Nós</a></li>
-              <hr class="dropdown-divider">
-              <li><a class="dropdown-item" href="#">Curiosidades</a></li>
-              <li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.PNG" type="image/x-icon">
+</head>
 
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-          </li>
-         
-        </ul>
-        </form>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="img/logo.png" class="logo img-fluid me-2" alt="Logo">
+                <span class="logo-text">
+                    LIBRARY OF GAMING
+                </span>
+            </a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-lg-3">
+                        <a class="nav-link active" href="#">home</a>
+                    </li>
+                    <li class="nav-item px-lg-3">
+                        <a class="nav-link" href="html/jogos/index.html">jogos</a>
+                    </li>
+                    <li class="nav-item px-lg-3">
+                        <a class="nav-link" href="#">sobre nós</a>
+                    </li>
+                    <li class="nav-item px-lg-3">
+                        <a class="nav-link" href="html/noticias/index.html">notícias</a>
+                    </li>
+                </ul>
+                <form class="d-flex align-items-center">
+                    <input class="form-control pesquisa" type="search" placeholder="🔍 buscar jogos">
+                    <button class="btn botao-login ms-3">
+                    LOGIN
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+   <div class="container-fluid px-0">
+    <div class="row g-0">
+      <div class="col-12">
+        <div class="card text-bg-dark">
+          <img src="img/banner.jpg" class="card-img" alt="..." style="width: auto; height: 400px;">
+          <div class="card-img-overlay">
+            <h5 class="card-title">DESCUBRA SEU <br>PRÓXIMO JOGO <br>FAVORITO!</h5>
+            <br><br><br><br>
+            
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</nav>
-    <h1>Hello, world!</h1>
+   </div>
 
-  </body>
+   <div class="container-fluid">
+    <div class="row g-0">
+      <div class="col-12 col-md-12">
+        <div class="card-title">
+          <h5>Jogos em Destaque!</h5>
+        </div>
+        <div class="fundo">
+          <p class="lead">Deltarune</p>
+          <div class="card-title d-flex">
+          <h5><img src="img/conteudo1.jpg" class="img-fluid" alt="" style="height: 200px; width: 400px; padding: 5px;"></h5>
+          <p class="card-text">Deltarune é uma aventura de RPG que se passa em um universo paralelo ao de Undertale. A história acompanha Kris, um adolescente humano, e sua colega de classe Susie, uma criatura monstruosa. Eles caem em um portal escondido e vão parar no "Mundo das Trevas", onde encontram o príncipe Ralsei. Lá, descobrem ser os heróis destinados a restaurar o equilíbrio entre a luz e as trevas</p>
+          </div>
+        </div>
+        <div class="fundo">
+          <p class="lead">Cult of The Lamb</p>
+          <div class="card-title d-flex">
+          <h5><img src="img/conteudo2.jpg" class="img-fluid" alt="" style="height: 200px; width: 350px; padding: 5px;"></h5>
+          <p class="card-text">Cult of the Lamb é uma mistura viciante de simulador de seita e jogo de ação roguelike. Você é o último cordeiro do mundo, ressuscitado por uma divindade aprisionada chamada "Aquele que Espera". Sua missão é eliminar os quatro Bispos da Velha Fé e construir um culto leal em homenagem ao seu salvador.</p>
+          </div>
+        </div>
+        <div class="fundo">
+          <p class="lead">Celeste</p>
+          <div class="card-title d-flex">
+          <h5><img src="img/conteudo3.jpg" class="img-fluid" alt="" style="height: 200px; width: 350px; padding: 5px;"></h5>
+          <p class="card-text">Celeste é um jogo de plataforma lançado em 2018 que acompanha Madeline, uma jovem que decide escalar a Montanha Celeste para provar seu próprio valor. A jornada é uma poderosa metáfora para a ansiedade e depressão, onde a protagonista precisa enfrentar seu próprio alter-ego sombrio e aprender sobre autoconhecimento e aceitação.</p>
+          </div>
+        </div>
+        <div class="fundo">
+          <p class="lead">A Hat in Time</p>
+          <div class="card-title d-flex">
+          <h5><img src="img/conteudo4.jpg" class="img-fluid" alt="" style="height: 200px; width: 400px; padding: 5px;"></h5>
+          <p class="card-text">A Hat in Time é um jogo de plataforma 3D no estilo "colecionável" (inspirado em clássicos como Super Mario 64 e Banjo-Kazooie). A história acompanha a Hat Kid, uma garotinha alienígena que viaja pelo espaço em sua nave. Quando seu combustível mágico—as Time Pieces (ampulhetas)—cai acidentalmente na Terra, ela precisa explorar diversos mundos para recuperá-las e voltar para casa.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+   </div>
+
+   <div class="container-fluid">
+     <div class="row">
+      <div class="col-12">
+        <h5 class="lead">Notícias em Destaque!</h5>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner fundo">
+            <div class="carousel-item active">
+              <img src="img/carrosel0.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carrosel1jpg.avif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carrosel2.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+     </div>
+   </div>
+</body>
+<footer>
+Library Of gaming© 2026 Todos os Direitos Reservados. <br>
+Entre em contato conosco:  <br>
+<img src="img/redesocial0.jpg" class="redes" alt="">
+<img src="img/redesocial1.jpg" class="redes" alt="">
+<img src="img/redesocial2.jpg" class="redes" alt="">
+</footer>
 </html>

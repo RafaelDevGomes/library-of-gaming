@@ -1,0 +1,163 @@
+/* ===========================
+   GERAL
+=========================== */
+* {
+    margin: 0;
+    padding: 0;
+}
+.redes{
+    width: 30px;
+    height: 30px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    height: auto;
+}
+
+.fundo:hover{
+    transition: 0.5s;
+    padding: 20px;
+}
+
+.fundo{
+    background-color: #18181d;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.lead{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-danger{
+    margin-right: 20px;
+}
+
+.container-fluid{
+    
+}
+
+body{
+    margin:0;
+    padding:0;
+    background:#262431;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar-custom{
+    background:#18181d;
+    border-bottom:1px solid #2d2d36;
+}
+
+.logo{
+    width:42px;
+}
+
+.logo-text{
+    color:white;
+    font-size:1rem;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+.navbar-nav .nav-link{
+    color:white;
+    font-size:1.1rem;
+    font-weight:600;
+    transition:.3s;
+}
+
+.navbar-nav .nav-link:hover{
+    color:#ff3da5;
+}
+
+.pesquisa{
+    width:220px;
+    border:none;
+    border-radius:8px;
+    background:#28325d;
+    color:white;
+}
+
+.pesquisa::placeholder{
+    color:#d9d9d9;
+}
+
+.pesquisa:focus{
+    background:#28325d;
+    color:white;
+    box-shadow:none;
+}
+
+.botao-login{
+    color:white;
+    border:2px solid #ff2ea6;
+    border-radius:7px;
+    padding:6px 18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.botao-login:hover{
+    background:#ff2ea6;
+    color:white;
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.principal{
+    background:#33313c;
+    padding:50px;
+    border-radius:4px;
+}
+
+/* ===========================
+   RESPONSIVO
+=========================== */
+
+@media (max-width:991px){
+
+    .navbar-nav{
+        text-align:center;
+        margin:25px 0;
+    }
+
+    .pesquisa{
+        width:100%;
+        margin-bottom:10px;
+    }
+
+    .botao-login{
+        width:100%;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .principal{
+        padding:25px;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .logo-text{
+        display:none;
+    }
+
+}
